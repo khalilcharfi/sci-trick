@@ -1,4 +1,4 @@
-![sci-trick_chrome_extension_master_branch](assets/logo.png)Sci-trick
+![sci-trick_chrome_extension_master_branch](https://cloud.githubusercontent.com/assets/4891848/13199382/73e1eb08-d824-11e5-9bc1-1e59d0a2df3e.png)Sci-trick
 ==========
 
 Chrome extension that appends ".sci-hub.se" to active tab domain, allowing free access to scientific articles.
