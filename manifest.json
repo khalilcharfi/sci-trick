@@ -22,5 +22,12 @@
   {
     "scripts": ["background.js"],
     "persistent": false
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.sci-hub.se/*"],
+      "run_at": "document_end",
+      "js": ["contentScript.js"]
+    }
+  ]
 }

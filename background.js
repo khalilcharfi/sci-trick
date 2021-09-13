@@ -63,12 +63,10 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
         if (CheckWebsite(tab, changeInfo)) {
             arr[2] = arr[2] + ".sci-hub.se";
             var new_url = arr.join("/");
-            console.log("Redirecting " + tab.url + " to " + new_url), chrome.tabs.update(tab.id
-                , {
-                    url: new_url
-                })
+         chrome.tabs.update(tab.id, {url: new_url});
         }
     }
+
 });
 chrome.browserAction.onClicked.addListener(function (e) {
     ButtonState()
